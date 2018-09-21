@@ -77,6 +77,17 @@ if(true){
 //Section 5
 const numList = [2,4,6,8,10];
 
+//Section 6
+const bar = ()=>{
+    console.log('bar here');
+}
+bar();
+
+const foo = ()=>{
+    console.log('foo here');
+}
+foo();
+
 
 
 
