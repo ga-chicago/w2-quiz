@@ -1,3 +1,5 @@
+//Section 1
+
 //1.
 const arrObj = {
 	arr: [1,2,3],
@@ -21,3 +23,42 @@ const objArr = [4,{
 	properties: 2
 }]
 console.log(objArr[1].isObj);
+
+//Section 2
+
+//1.
+const objFunc = () => {
+	return {
+		isObj: true,
+		properties: 2
+	};
+}
+console.log(objFunc().isObj);
+
+//2.
+const arrFunc = () => {
+	return [1,2,3];
+}
+console.log(arrFunc()[0]);
+
+//3.
+const arrObjFunc = () => {
+	return {
+		isObj: true,
+		arr: [1,2,3]
+	}
+}
+console.log(arrObjFunc().arr[0]);
+
+
+
+
+
+
+
+
+
+
+
+
+
