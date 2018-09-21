@@ -74,6 +74,8 @@ if(true){
     }
 }
 
+//Section 5
+const numList = [2,4,6,8,10];
 
 
 
