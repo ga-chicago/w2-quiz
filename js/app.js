@@ -14,11 +14,11 @@ console.log(object0[0]);
 // Log one of the properties of that inner object
 
 const object = {
-
+name: 'Greg'
 }
 
 {
-	name: 'Greg'
+	
 }
 
 
@@ -29,8 +29,33 @@ console.log(object.name);
 
 const object2 = [0,1,[3,4]];
 
+
+
+
+
+
+
 console.log(object2[2]);
 
 // Create an array that has a function 
 // as one of its elements. Call that function.
+
+// Part2
+
+
+// Create a function that returns an array. 
+// Log an element of the array.
+
+ function create ()  {
+ 	let apple = [2,3];
+ 	return create[1];
+
+}
+
+// console.log(create([1]));
+
+
+
+
+
 
