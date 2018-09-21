@@ -10,10 +10,10 @@ console.log(fil.hair[0]);
 // Create an object that has a property that is an object. Log one of the properties of that inner object.
 const josh ={
 	name: {
-		"josh"
-	};
+		name: "josh"
+	}
 };
-console.log(josh.name[1]);
+console.log(josh.name.name);
 // Create an object that has a property that is a function (method). Call that method.
 // const funct1 ={
 	
