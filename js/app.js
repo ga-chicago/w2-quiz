@@ -87,3 +87,35 @@ const mario = {
 console.log(mario.eatsPowerStar().favColor[3]);
 
 
+//PART 3
+
+const makeApple = () => {
+	return 'Have an apple!'
+};
+
+const makeEdibleArrangement = (apple) => {
+	console.log(apple + ' And a banana! And some mangoes!')
+};
+
+makeEdibleArrangement(makeApple());
+
+
+//PART 4
+
+if(true){
+    const a = 2 + 2;
+	console.log(a);
+}
+	if(true){
+		if(false){
+            console.log('hi');
+    	}
+    }
+
+
+
+
+
+
+
+
