@@ -97,6 +97,14 @@ const addTwoNums = (firstNum, secondNum)=>{
     return finalValue;
 }
 
+//Section 8
+foo();
+
+const foo ()=>{
+    console.log('hi');
+}
+//The error message means that the function declaration is missing an equals sign
+
 
 
 
