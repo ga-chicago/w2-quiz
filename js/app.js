@@ -43,3 +43,47 @@ const youngLink = {
 
 youngLink.attack();
 
+
+//PART 2
+
+//2. Create a function that returns an array. Log an element of the array.
+
+const boatNameSuggestor = () => {
+	return boatNameList = [
+		'The Alfalfa', 'The Salty Sardine', 'The Fox Confessor', 'The Marie Antoinette'
+	];
+};
+
+console.log(boatNameSuggestor()[1]);
+
+//3. 
+
+const motherShip = {
+	engines: 8, 
+	class: 'dreadnaught',
+	launchEscapePod: () => {
+		return escapePod = {
+			engines: 2,
+			class: 'rescue vessle'
+		}
+	}
+};
+
+console.log(motherShip.launchEscapePod().engines)
+
+//8. Create an object that has a method that returns an object that has an array. Log an element of that array.
+
+const mario = {
+	favColor: 'red',
+	mustache: true,
+	eatsPowerStar: () => {
+		return rainbowMario = {
+			favColor: ['red', 'orange', 'yellow', 'green', 'blue', 'pink']
+		}
+		
+	}
+};
+
+console.log(mario.eatsPowerStar().favColor[3]);
+
+
