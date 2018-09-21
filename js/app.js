@@ -62,6 +62,18 @@ const cbFunc2 = (param) => {
 
 cbFunc2(cbFunc1());
 
+//Section 4
+if(true){
+	const a = 2 + 2;
+	console.log(a);
+}
+
+if(true){
+	if(false){
+        console.log('hi');
+    }
+}
+
 
 
 
