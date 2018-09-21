@@ -29,7 +29,7 @@ const birds = [
 ]
 birds[0]();
 
-// Commit 1 
+// COMMIT 1
 
 
 
