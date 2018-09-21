@@ -42,7 +42,7 @@ const functTwo = () => {
 	const greg = {
 		name: "greg"
 	}
-	return greg;
+	return greg.name;
 }
 console.log(functTwo());
 // Create a function that returns an array. Log an element of the array.
