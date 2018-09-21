@@ -59,6 +59,23 @@ const returnObjectArray = () => {
 
 console.log(returnObjectArray().hobbies[2]);
 
+// Define two functions and set them to variables
+// The second function takes a parameter
+// Call the second function, passing in the variable that references the first function as the parameter
+// In the definition of the second function, invoke (call) the parameter that is being passed into it. Remember, this parameter is a function
+
+
+const function1 = () => {
+	return 'weeeeeeee';
+}
+
+const function2 = (funcParam) => {
+	// console.log(funcParam);
+	return funcParam;
+}
+
+function2(function1());
+
 
 
 
