@@ -11,9 +11,6 @@ Competencies: Objects, Arrays, Loops <br>
 Prerequisites: JavaScript <br>
 
 ---
-## Important
-
-Before starting this, please read this set of [Tips and Tricks](../instructor_notes/TIPS.md)
 
 ## Setup
 
