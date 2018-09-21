@@ -105,7 +105,15 @@ const foo ()=>{
 }
 //The error message means that the function declaration is missing an equals sign
 
+//Section 9
+const b = 5;
 
+if(b === 5){ //will be false
+    console.log('this line should execute');
+}
+
+const a = '5';
+console.log(5 + Number(a));
 
 
 
