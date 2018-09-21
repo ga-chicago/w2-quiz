@@ -112,6 +112,9 @@ if(true){
     	}
     }
 
+//PART 5
+
+const integerList = [2, 4, 6, 8, 10];
 
 
 
