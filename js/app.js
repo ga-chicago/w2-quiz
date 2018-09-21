@@ -50,9 +50,17 @@ const arrObjFunc = () => {
 }
 console.log(arrObjFunc().arr[0]);
 
+//Section 3
 
+const cbFunc1 = () => {
+	console.log("Hello");
+}
 
+const cbFunc2 = (param) => {
+	return param;
+}
 
+cbFunc2(cbFunc1());
 
 
 
