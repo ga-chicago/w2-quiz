@@ -51,6 +51,13 @@ const functOne = () => {
 }
 console.log(functOne());
 // Create a function that returns an object that has an array. Log one of the elements of that array.
+const functThree = () => {
+	const rube = {
+		names: ["ben","roo"]
+	}
+	return rube.names[0];
+}
+console.log(functThree());
 // Create a function that returns an object that has an object. Log one of the properties of the inner object.
 // Create a function that returns an object that has a method. Call that inner function (method).
 // Create a function that returns a function. Call that inner function
