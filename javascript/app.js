@@ -39,19 +39,19 @@ birds[0]();
 
 
 // Create a function that returns an array. Log an element of the array.
-const snakes = () => {
+const hissingSnakes = () => {
 	return ['hisss', 'chomp!'];
 }
-console.log(snakes()[1]);
+console.log(hissingSnakes()[1]);
 
 // Create a function that returns an object that has an array. Log one of the elements of that array.
-const bears = () => {
+const dancingBears = () => {
 	return {
 		name: 'balou',
 		quotes: ['Petit d\'hom!', 'Il en faut peu pour etre heureux']
 	}
 }
-console.log(bears().quotes[1]);
+console.log(dancingBears().quotes[1]);
 
 // Create an object that has a method that returns an object that has an object. Log a property of the inner object.
 const tigers = {
@@ -65,13 +65,26 @@ const tigers = {
 console.log(tigers.attack().weapon.teeth);
 
 
+
+// Create a callback
+
+// Define two functions and set them to variables
+// The second function takes a parameter
+// Call the second function, passing in the variable that references the first function as the parameter
+// In the definition of the second function, invoke (call) the parameter that is being passed into it. Remember, this parameter is a function
+
+const growl = () => {
+	return "RRROAAWWOORR";
+}
+
+const 
+
+
+
+// Commit 3 
+
 // 🔴 The commit message should read: 
-// "Commit 2 - Combine objects, arrays, and functions more than one level deep"
-
-
-
-
-
+// "Commit 3 - Create a callback"
 
 
 
