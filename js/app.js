@@ -70,4 +70,19 @@ console.log(functThree());
 // Create an array that has a function that returns an object that has an array. Log an element of the inner array.
 // Create an array that has a function that returns an object that has an object. Log a property of the inner object.
 // Create an array that has a function that returns an object that has a method. Call that method.
-// Create an array that has a function that returns a function. Call the inner function.
+// Create an array that has a function that returns a function. Call the inner function
+//------//
+
+//Create a callback
+// Define two functions and set them to variables
+const functFour = () => {
+	console.log("hi");
+}
+// The second function takes a parameter
+const functFive = (functFour) => {
+	console.log("bye");
+
+}
+
+// Call the second function, passing in the variable that references the first function as the parameter
+// In the definition of the second function, invoke (call) the parameter that is being passed into it. Remember, this parameter is a function
