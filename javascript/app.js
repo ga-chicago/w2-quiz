@@ -53,7 +53,11 @@ const returnArray = () => {
 
 console.log(returnArray()[3]);
 // Create a function that returns an object that has an array. Log one of the elements of that array.
+const returnObjectArray = () => {
+	return andy;
+}
 
+console.log(returnObjectArray().hobbies[2]);
 
 
 
