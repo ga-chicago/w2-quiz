@@ -88,7 +88,14 @@ const foo = ()=>{
 }
 foo();
 
-
+//Section 7
+//Defines function with two parameters
+const addTwoNums = (firstNum, secondNum)=>{
+	//declares new variable, assigns variable value of sum of function's arguments
+    const finalValue = firstNum + secondNum;
+    //returns new variable
+    return finalValue;
+}
 
 
 
