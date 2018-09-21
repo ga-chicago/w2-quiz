@@ -40,6 +40,21 @@ const cellPhone = {
 cellPhone.ring();
 
 
+// Create a function that returns an object. Log a property of that object (hint: call the function and then call a property on the return value).
+const returnObject = () => {
+	return cellPhone;
+}
+
+console.log(returnObject().model);
+// Create a function that returns an array. Log an element of the array.
+const returnArray = () => {
+	return andy.hobbies;
+}
+
+console.log(returnArray()[3]);
+// Create a function that returns an object that has an array. Log one of the elements of that array.
+
+
 
 
 
