@@ -15,8 +15,8 @@ Prerequisites: JavaScript <br>
 ## Setup
 
 0. **IMPORTANT: Read all instructions on this quiz very carefully before you do them!**
-1. Create a `quiz` folder in today's folder, and inside of that folder do you know what.
-2. Copy the questions that you are answering into your file (and comment it out) and write the answer below the question.
+1. Create a `quiz` folder in today's folder, and inside of that folder fork and clone this repository.
+2. Copy the questions that you are answering into your file (and comment it out) and write the answer below the question.  Answers should not be commented out.
 
 ## Combine objects, arrays, and functions
 
